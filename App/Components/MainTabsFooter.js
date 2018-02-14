@@ -5,31 +5,36 @@ import { Footer, FooterTab, Icon, Text, Button } from 'native-base';
 import styles from './Styles/MainTabsFooterStyle';
 
 export default class MainTabsFooter extends Component {
+  constructor(props) {
+    super(props);
+    this.props = props;
+  }
   render() {
     return (
       <Footer>
         <FooterTab style={styles.footerTab}>
           <Button
-            style={styles.buttonStyle}
-            vertical
+            active={this.props.navigationState.index === 0}
             onPress={() => this.props.navigation.navigate('HomeScreen')}
           >
-            <Icon name="md-home" />
-            <Text>Home</Text>
+            <Icon style={styles.buttonText} name="md-home" />
+            <Text style={styles.buttonText} >Home</Text>
           </Button>
           <Button
+            active={this.props.navigationState.index === 1}
             vertical
             onPress={() => this.props.navigation.navigate('SettingsScreen')}
           >
-            <Icon name="md-settings" />
-            <Text>Settings</Text>
+            <Icon style={styles.buttonText} name="md-settings" />
+            <Text style={styles.buttonText}>Settings</Text>
           </Button>
           <Button
+            active={this.props.navigationState.index === 2}
             vertical
             onPress={() => this.props.navigation.navigate('AboutScreen')}
           >
-            <Icon name="md-information-circle" />
-            <Text>About</Text>
+            <Icon style={styles.buttonText} name="md-information-circle" />
+            <Text style={styles.buttonText}>About</Text>
           </Button>
         </FooterTab>
       </Footer>
