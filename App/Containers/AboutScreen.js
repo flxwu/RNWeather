@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Linking } from 'react-native';
 import { Container, Header, Content, Text, List, ListItem, Body, Title, Icon, Card, CardItem, Right } from 'native-base';
 // Add Actions - replace 'Your' with whatever your reducer is called :)
 // import YourActions from '../Redux/YourRedux'
@@ -29,30 +30,42 @@ class AboutScreen extends Component {
               </CardItem>
               <CardItem>
                 <Icon active name="logo-chrome" />
-                <Text>Website</Text>
+                <Text>Website   </Text>
                 <Right>
-                  <Icon name="arrow-forward" />
+                  <Icon
+                    name="arrow-forward"
+                    onPress={() => Linking.openURL('http://david-wu.me').catch(err => console.error('An error occurred', err))}
+                  />
                 </Right>
               </CardItem>
               <CardItem>
                 <Icon active name="logo-github" />
-                <Text>Github</Text>
+                <Text>Github    </Text>
                 <Right>
-                  <Icon name="arrow-forward" />
+                  <Icon
+                    name="arrow-forward"
+                    onPress={() => Linking.openURL('https://github.com/Pl4gue').catch(err => console.error('An error occurred', err))}
+                  />
                 </Right>
               </CardItem>
               <CardItem>
                 <Icon active name="logo-linkedin" />
                 <Text>LinkedIn</Text>
                 <Right>
-                  <Icon name="arrow-forward" />
+                  <Icon
+                    name="arrow-forward"
+                    onPress={() => Linking.openURL('https://www.linkedin.com/in/felix-wu-de/').catch(err => console.error('An error occurred', err))}
+                  />
                 </Right>
               </CardItem>
               <CardItem>
                 <Icon active name="logo-twitter" />
-                <Text>Twitter</Text>
+                <Text>Twitter </Text>
                 <Right>
-                  <Icon name="arrow-forward" />
+                  <Icon
+                    name="arrow-forward"
+                    onPress={() => Linking.openURL('https://twitter.com/pl4gue_dwu').catch(err => console.error('An error occurred', err))}
+                  />
                 </Right>
               </CardItem>
             </Card>
