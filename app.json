@@ -1,4 +1,16 @@
 {
-  "name": "RNWeather",
-  "displayName": "RNWeather"
+  "expo": {
+    "name": "RNWeather",
+    "description": "A Realtime Weather App with customizable location.",
+    "slug": "RNWeather",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true
+    }
+  }
 }
