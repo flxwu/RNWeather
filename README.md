@@ -5,8 +5,8 @@
 
 #### A Realtime Weather App with customizable location
 <div style="text-align:center" align="middle">
-<img src="smartmockups_jdqdp72z.jpeg" width="60%" align="middle" />
-<img src="smartmockups_jdqdkuot.jpeg" width="60%" align="middle" />
+<img src="smartmockups_jdqdkuot.jpeg" width="80%" align="middle" />
+<img src="smartmockups_jdqdp72z.jpeg" width="80%" align="middle" />
 </div>
 
 ## :arrow_up: How to Locally Setup
