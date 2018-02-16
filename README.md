@@ -4,10 +4,9 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
 #### A Realtime Weather App with customizable location.
-<div style="display:inline-block;">
-<img src="smartmockups_jdqdp72z.jpeg" width="500px">
-<img src="smartmockups_jdqdkuot.jpeg" width="500px">
-</div>
+<img style="margin: auto;" src="smartmockups_jdqdp72z.jpeg" width="50%" >
+<img style="display:inline-block;" src="smartmockups_jdqdkuot.jpeg" width="60%">
+
 ## :arrow_up: How to Setup
 
 **Step 1:** git clone this repo:
