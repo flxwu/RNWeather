@@ -3,20 +3,28 @@
 #  RNWeather
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-#### A Realtime Weather App with customizable location.
-<img style="margin: auto;" src="smartmockups_jdqdp72z.jpeg" width="50%" >
-<img style="display:inline-block;" src="smartmockups_jdqdkuot.jpeg" width="60%">
+#### A Realtime Weather App with customizable location
+<div style="text-align:center" align="middle">
+<img src="smartmockups_jdqdp72z.jpeg" width="60%" align="middle" />
+<img src="smartmockups_jdqdkuot.jpeg" width="60%" align="middle" />
+</div>
 
-## :arrow_up: How to Setup
+## :arrow_up: How to Locally Setup
 
 **Step 1:** git clone this repo:
-
+```
+git clone https://github.com/Pl4gue/RNWeather.git
+```
 **Step 2:** cd to the cloned repo:
+```
+cd RNWeather/
+```
+**Step 3:** Install dependencies
+```
+npm install
+```
 
-**Step 3:** Install the Application with `yarn` or `npm i`
-
-
-## :arrow_forward: How to Run App
+## :arrow_forward: How to Run App Locally
 
 1. cd to the repo
 2. Run Build for either OS
@@ -27,6 +35,5 @@
     * run `react-native run-android`
 
 ## [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard) Standard Compliant
-
 
 This project adheres to Standard.
