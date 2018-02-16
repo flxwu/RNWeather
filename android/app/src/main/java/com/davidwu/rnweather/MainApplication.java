@@ -1,4 +1,4 @@
-package com.rnweather;
+package com.davidwu.rnweather;
 
 import android.app.Application;
 
