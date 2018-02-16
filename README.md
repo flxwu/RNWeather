@@ -1,9 +1,11 @@
 <img src="web_hi_res_512.png" width="300px" align="center">
 
-#  RNWeather 
+#  RNWeather
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/) [![expo-download](https://img.shields.io/badge/expo-download-blue.svg)](https://expo.io/@pl4gue/RNWeather)
 
-#### A Realtime Weather App with customizable location
+###  [_Download Current Release .apk_](https://github.com/Pl4gue/RNWeather/releases/download/v1.1.0/rnweather-release20180216203244.apk)
+
+##### A Realtime Weather App with customizable location
 <div style="text-align:center" align="middle">
 <img src="smartmockups_jdqdkuot.jpeg" width="80%" align="middle" />
 <img src="smartmockups_jdqdp72z.jpeg" width="80%" align="middle" />
