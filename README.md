@@ -1,13 +1,13 @@
-<img src="assets/web_hi_res_512.png" width="500px">
+<img src="web_hi_res_512.png" width="300px" align="center">
 
 #  RNWeather
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
 #### A Realtime Weather App with customizable location.
-
+<div style="display:inline-block;">
 <img src="smartmockups_jdqdp72z.jpeg" width="500px">
-
-
+<img src="smartmockups_jdqdkuot.jpeg" width="500px">
+</div>
 ## :arrow_up: How to Setup
 
 **Step 1:** git clone this repo:
