@@ -1,7 +1,7 @@
 <img src="web_hi_res_512.png" width="300px" align="center">
 
 #  RNWeather 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)[![expo-download](https://img.shields.io/badge/expo-download-blue.svg)](https://expo.io/@pl4gue/RNWeather)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/) [![expo-download](https://img.shields.io/badge/expo-download-blue.svg)](https://expo.io/@pl4gue/RNWeather)
 
 #### A Realtime Weather App with customizable location
 <div style="text-align:center" align="middle">
